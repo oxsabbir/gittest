@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: red;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+header {
+  background: lime;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+header button{
+  padding: 10px;
+  border-radius: 50%;
+  background: lightblue;
+}
+nav {
+  background: grey;
+  position: absolute; 
+  top: 0;
+  right: 0;
+  width: 200px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  z-index: 3;
+  transform: translate(0%,50%);
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 20px;
+}
+
+nav ul li {
+  padding: 5px;
+  text-align: center;
+}

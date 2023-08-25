@@ -6,9 +6,9 @@ console.log(menubar)
 
 menubar.addEventListener("click", () => {
   console.log("clicked")
-  navBar.style.opacity = "1"
+  navBar.style.transform = "translate(0,50%)"
 })
 
 close.addEventListener("click", () => {
-  navBar.style.opacity = "0"
+  navBar.style.transform = "translate(0,-150%)"
 })
